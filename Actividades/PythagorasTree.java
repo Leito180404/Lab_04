@@ -31,4 +31,5 @@ public class PythagorasTree extends JPanel{
         trazaArbol(g, x2, y2, nuevoLado, angulo - 45, nivel -1);
         trazaArbol(g, x2, y2, nuevoLado, angulo + 45, nivel -1);
     }
+    
 }
