@@ -2,6 +2,8 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
+
+import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 public class PythagorasTree extends JPanel{
@@ -31,5 +33,12 @@ public class PythagorasTree extends JPanel{
         trazaArbol(g, x2, y2, nuevoLado, angulo - 45, nivel -1);
         trazaArbol(g, x2, y2, nuevoLado, angulo + 45, nivel -1);
     }
-    
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("Árbol de Pitágoras");
+        PythagorasTree panel = new PythagorasTree(10); 
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.getContentPane().add(panel);  
+        frame.pack();
+        frame.setVisible(true); 
+    }
 }
