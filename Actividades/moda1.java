@@ -29,4 +29,19 @@ public class moda1 {
         
         return moda;
     }
+
+    public static void main(String[] args) {
+        int[] array = {1, 2, 3, 4, 5, 3, 2, 3, 1};
+
+        // Ejemplo de llamada al método frecuencia
+        int num = 3;
+        int first = 0;
+        int end = array.length - 1;
+        int freq = frecuencia(array, first, end, num);
+        System.out.println("El número " + num + " aparece " + freq + " veces.");
+
+        // Ejemplo de llamada al método modal1
+        int moda = modal1(array);
+        System.out.println("La moda del arreglo es: " + moda);
+    }
 }    
