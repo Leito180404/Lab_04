@@ -35,7 +35,7 @@ public class PythagorasTree extends JPanel {
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("Árbol de Pitágoras");
-        PythagorasTree panel = new PythagorasTree(30); // Cambia el número de niveles aquí
+        PythagorasTree panel = new PythagorasTree(25); // Cambia el número de niveles aquí
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.add(panel);
         frame.pack();
