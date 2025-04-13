@@ -35,7 +35,6 @@ public class potencias {
         return dp[objetivo]; 
     }
     public static boolean resolverProblema(List<Integer> arr) {
-        int N = arr.get(0);
         int objetivo = arr.get(arr.size() - 1);
         arr = arr.subList(1, arr.size() - 1);
         return seleccionarSubconjunto(arr, objetivo);
@@ -51,7 +50,7 @@ public class potencias {
             System.out.print("Ingresa el número " + (i + 1) + ": ");
             arr.add(sc.nextInt());
         }
-        
+
         System.out.println(resolverProblema(arr));
         sc.close();
     }
