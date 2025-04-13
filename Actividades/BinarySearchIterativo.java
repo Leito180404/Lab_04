@@ -15,7 +15,6 @@ public class BinarySearchIterativo {
 public static void main(String[] args){
 	BinarySearchIterativo ob = new BinarySearchIterativo();
 	int arr[] = { 1, 2, 3, 4, 5 };
-	int n = arr.length;
 	int x = 4;
 	int position = ob.binarySearch(arr, x);
 	if (position == -1)
