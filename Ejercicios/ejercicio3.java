@@ -23,7 +23,7 @@ public class ejercicio3 {
     }
 
     public static void main(String[] args) {
-        int[][] T = {
+        int[][] T1 = {
             {0, 10, 75, 94, 50},
             {0, 0, 35, 50, 100},
             {0, 0, 0, 80, 125},
@@ -31,8 +31,29 @@ public class ejercicio3 {
             {0, 0, 0, 0, 0}
         };
 
-        int n = T.length; 
-        int costoMinimo = calcularCostoMinimo(T, n);
-        System.out.println("El costo minimo de viajar entre el primer y utimo embarcadero es: " + costoMinimo);
+        int n1 = T1.length;
+        int costoMinimo1 = calcularCostoMinimo(T1, n1);
+        System.out.println("Ejemplo 1 - Costo minimo entre el primer y ultimo embarcadero: " + costoMinimo1);
+
+        int[][] T2 = {
+            {0, 15, 40, 60},
+            {0, 0, 30, 50},
+            {0, 0, 0, 20},
+            {0, 0, 0, 0}
+        };
+
+        int n2 = T2.length;
+        int costoMinimo2 = calcularCostoMinimo(T2, n2);
+        System.out.println("Ejemplo 2 - Costo minimo entre el primer y ultimo embarcadero: " + costoMinimo2);
+
+        int[][] T3 = {
+            {0, 20, 40},
+            {0, 0, 10},
+            {0, 0, 0}
+        };
+
+        int n3 = T3.length;
+        int costoMinimo3 = calcularCostoMinimo(T3, n3);
+        System.out.println("Ejemplo 3 - Costo minimo entre el primer y ltimo embarcadero: " + costoMinimo3);
     }
 }
