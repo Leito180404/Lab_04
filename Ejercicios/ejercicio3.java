@@ -36,10 +36,10 @@ public class ejercicio3 {
         System.out.println("Ejemplo 1 - Costo minimo entre el primer y ultimo embarcadero: " + costoMinimo1);
 
         int[][] T2 = {
-            {0, 15, 40, 60},
-            {0, 0, 30, 50},
-            {0, 0, 0, 20},
-            {0, 0, 0, 0}
+            {110, 200, 450, 600},
+            {40, 50, 150, 300},
+            {20, 0, 0, 100},
+            {40, 70, 10, 10}
         };
 
         int n2 = T2.length;
@@ -47,9 +47,9 @@ public class ejercicio3 {
         System.out.println("Ejemplo 2 - Costo minimo entre el primer y ultimo embarcadero: " + costoMinimo2);
 
         int[][] T3 = {
-            {0, 20, 40},
-            {0, 0, 10},
-            {0, 0, 0}
+            {10, 20, 40},
+            {230, 500, 10},
+            {100, 10, 110}
         };
 
         int n3 = T3.length;
