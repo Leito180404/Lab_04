@@ -61,7 +61,7 @@ public class ejercicio2 {
                     System.out.println("Saliendo...");
                     break; 
             }
-            sc.close();
         }
+        sc.close();
     }
 }
