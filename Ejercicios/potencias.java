@@ -54,7 +54,6 @@ public class potencias {
         }
 
         System.out.println(resolverProblema(arr));
-        sc.close();
         System.out.println("¿Deseas ingresar otro arreglo? (si/no): ");
         String respuesta = sc.next();
         if (respuesta.equalsIgnoreCase("no")) {
@@ -62,5 +61,6 @@ public class potencias {
             break; 
         }
     }
+    sc.close();
 }
 }
